@@ -7,11 +7,9 @@ $movies = [
 ];
 
 foreach ($movies as $movie => $listActors) {
-
   echo "Dans le film $movie, les principaux acteurs sont :\n";
 
   foreach ($listActors as $actor) {
-
     echo "$actor, ";
   }
 
